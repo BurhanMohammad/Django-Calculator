@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-5b#a=r-eb=lvo4d#m4=hc$+ob-a54la%og!9rcemb6q+86zq62'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://burhancalculator.io/']
 
 
 # Application definition
